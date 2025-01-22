@@ -1,0 +1,39 @@
+body {
+    background: rgb(81, 143, 184);
+    color: white;
+    font: normal 10pt Arial;
+    text-align: center;
+}
+header {
+    font-size: 3em;
+}
+section {
+    background: rgba(255, 255, 255, 0.562);
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.521);
+    text-align: left;
+}
+div#msg2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*div#msg2>img {
+    width: 200px;
+    height: 230px;
+    border-radius: 100%;
+}*/
+div#msg2>p{
+    background: white;
+    border: black 1px solid;
+    max-width: 150px;
+    padding: 2px;
+    margin: 5px;
+}
+
+footer {
+    font-style: italic;
+}
